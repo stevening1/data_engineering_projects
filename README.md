@@ -8,7 +8,7 @@ A curated collection of end-to-end data engineering projects demonstrating pract
 
 ### 🔹 COVID-19 Data Engineering Pipeline
 
-**Tech:** Azure Data Factory | ADLS Gen2 | Databricks | Azure SQL | Power BI
+**Tech:** Azure Data Factory | ADLS Gen2 | Databricks | Azure SQL | Power BI  
 🔗 https://github.com/stevening1/covid19-azure-data-factory-databricks-project
 
 Built an end-to-end data engineering pipeline to ingest, transform, and visualize COVID-19 data across European countries, creating analysis-ready datasets to support analytics and machine learning use cases.
@@ -17,7 +17,7 @@ Built an end-to-end data engineering pipeline to ingest, transform, and visualiz
 
 ### 🔹 Retail Data Engineering Project
 
-**Tech:** Azure Data Factory | ADLS Gen2 | Databricks | Delta Lake | SQL Server | Synapse Analytics | Power BI
+**Tech:** Azure Data Factory | ADLS Gen2 | Databricks | Delta Lake | SQL Server | Synapse Analytics | Power BI  
 🔗 https://github.com/stevening1/retail-data-engineering-project
 
 Designed a modern retail analytics pipeline that ingests data from an on-premises SQL Server database, transforms the data into analysis-ready datasets, and delivers insights into sales, customer, and product performance through Power BI.
@@ -26,7 +26,7 @@ Designed a modern retail analytics pipeline that ingests data from an on-premise
 
 ### 🔹 Azure Databricks Hospital Readmission Project
 
-**Tech:** Azure Databricks | PySpark | Delta Lake | Lakeflow Jobs | AI/BI Dashboards | GitHub Actions | Databricks Asset Bundles
+**Tech:** Azure Databricks | PySpark | Delta Lake | Lakeflow Jobs | AI/BI Dashboards | GitHub Actions | Databricks Asset Bundles  
 🔗 https://github.com/stevening1/azure-databricks-hospital-readmission-project
 
 Developed an automated healthcare analytics pipeline using Azure Databricks to ingest and transform hospital data, identify trends and potential drivers of readmissions, and deliver analytical insights through AI/BI Dashboards. Implemented CI/CD using GitHub Actions and Databricks Asset Bundles.
@@ -35,7 +35,7 @@ Developed an automated healthcare analytics pipeline using Azure Databricks to i
 
 ### 🔹 Azure & Microsoft Fabric Real-Time Weather Streaming Project
 
-**Tech:** Python | PySpark | Databricks | Azure Functions | Azure Event Hubs | Microsoft Fabric Eventstream | Fabric Eventhouse | KQL | Power BI | Fabric Activator | Azure Key Vault
+**Tech:** Python | PySpark | Databricks | Azure Functions | Azure Event Hubs | Microsoft Fabric Eventstream | Fabric Eventhouse | KQL | Power BI | Fabric Activator | Azure Key Vault  
 🔗 https://github.com/stevening1/azure_fabric_weather_streaming_project
 
 Built an end-to-end real-time weather streaming solution that ingests live Johannesburg weather data from WeatherAPI.com and streams it through Azure Event Hubs into Microsoft Fabric Eventstream and Eventhouse for real-time analytics.
@@ -43,6 +43,17 @@ Built an end-to-end real-time weather streaming solution that ingests live Johan
 Developed ingestion solutions using both Databricks and Azure Functions and performed a cost comparison using Azure Cost Management. The solution also includes a Power BI weather dashboard and event-driven severe weather alerts using KQL and Fabric Activator.
 
 Implemented security using Azure Key Vault, managed identities, RBAC, and least-privilege access principles.
+
+---
+
+### 🔹 Microsoft Fabric London Bike Real-Time Monitoring
+
+**Tech:** Microsoft Fabric Eventstream | Fabric Eventhouse | KQL | Real-Time Dashboard | Fabric Activator | Microsoft Teams  
+🔗 https://github.com/stevening1/fabric-london-bike-realtime-monitoring
+
+Developed a real-time bike availability monitoring solution using live London bicycle station data. Ingested JSON events through Fabric Eventstream into an Eventhouse KQL database and built an interactive real-time dashboard to analyse bike availability and empty docking spaces across neighbourhoods.
+
+Implemented parameterised KQL queries, neighbourhood filtering, and automatic dashboard refresh. Configured Fabric Activator to trigger Microsoft Teams notifications when a neighbourhood has no bikes available, demonstrating event-driven alerting and operational monitoring.
 
 ---
 
@@ -54,6 +65,7 @@ Implemented security using Azure Key Vault, managed identities, RBAC, and least-
 * Databricks and PySpark — distributed data processing
 * Python — data ingestion and application development
 * KQL — querying and analysing real-time data
+* Fabric Eventstream — low-code event ingestion and processing
 * Data Flows — data transformation and processing
 
 ### Cloud Data Platforms
@@ -70,7 +82,9 @@ Implemented security using Azure Key Vault, managed identities, RBAC, and least-
 
 * Power BI — interactive dashboards and reporting
 * Databricks AI/BI Dashboards — analytical visualisation
+* Microsoft Fabric Real-Time Dashboards — live data visualisation and monitoring
 * Fabric Activator — event-driven alerts and automation
+* Microsoft Teams integration — automated operational notifications
 
 ### DevOps & Security
 
@@ -92,7 +106,9 @@ Implemented security using Azure Key Vault, managed identities, RBAC, and least-
 * Real-time streaming and event-driven architectures
 * Data lake and data warehouse solutions
 * Data modelling and analytical datasets
-* Business intelligence and dashboard development
+* Business intelligence and real-time dashboard development
+* KQL-based analytics and time-sensitive event monitoring
+* Event-driven alerting and automated notifications
 * Cloud cost analysis and optimisation
 * CI/CD and infrastructure deployment practices
 * Cloud security and least-privilege access
