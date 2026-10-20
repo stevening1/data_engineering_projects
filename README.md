@@ -10,7 +10,7 @@ A curated collection of end-to-end data engineering projects demonstrating pract
 
 **Tech:** Microsoft Fabric | PySpark | Lakehouse | Delta Lake | Medallion Architecture | Dimensional Modelling | Direct Lake | Power BI | DAX | Data Pipelines
 
-🔗 https://github.com/stevening1/REPLACE-WITH-NEW-REPOSITORY-NAME
+🔗 https://github.com/stevening1/fabric-data-engineering-power-bi-analytics
 
 Built an end-to-end sales analytics solution in Microsoft Fabric using a medallion architecture to transform raw sales data into analysis-ready datasets. Developed Bronze-to-Silver and Silver-to-Gold Spark notebook pipelines, implementing data cleansing, enrichment, and incremental upserts to maintain dimensional and fact tables in a star schema.
 
